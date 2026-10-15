@@ -1,5 +1,8 @@
-name = input()
-card_id = input()
+width = int(input())
+height = int(input())
 
-print(f"Member: {name}")
-print(f"Card {card_id} belongs to {name}.")
+area = width * height
+perimeter = 2*(width + height)
+
+print(f"{area}\n{perimeter}")
+# TODO: print the area on line 1 and the perimeter on line 2
