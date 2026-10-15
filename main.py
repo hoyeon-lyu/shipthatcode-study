@@ -1,4 +1,5 @@
-print("Hello, Ship That Code!")
-print()
-print("Rule #1: print what's asked, not \"close enough\".")
-print("C:\\new\\test.py")
+name = input()
+card_id = input()
+
+print(f"Member: {name}")
+print(f"Card {card_id} belongs to {name}.")
