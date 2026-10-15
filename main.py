@@ -1,8 +1,14 @@
-width = int(input())
-height = int(input())
+# Line 1 of the input is a whole number, line 2 is a decimal number.
+whole_text = input()
+decimal_text = input()
 
-area = width * height
-perimeter = 2*(width + height)
+# TODO: turn the two lines of text into numbers and add them up
+whole_number = int(whole_text)
+decimal_number = float(decimal_text)
 
-print(f"{area}\n{perimeter}")
-# TODO: print the area on line 1 and the perimeter on line 2
+summary = float(whole_number) + decimal_number
+
+
+print(summary)   # the sum, as a decimal
+print(int(summary))   # the same sum with the fraction chopped off toward zero
+print(f"{whole_number} + {decimal_number} = {summary}")   # the report line
