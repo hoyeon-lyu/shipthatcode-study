@@ -1,0 +1,62 @@
+{
+  "course": "python-fundamentals",
+  "language": "python",
+  "language_id": 1071,
+  "entrypoint": "main.py",
+  "version": 1,
+  "content_hash": "f875a05b27e03ed5",
+  "lessons": [
+    {
+      "slug": "your-first-program",
+      "tests_hash": "86c7605dcfad"
+    },
+    {
+      "slug": "variables-and-data-types",
+      "tests_hash": "99c39f0344a5"
+    },
+    {
+      "slug": "working-with-numbers",
+      "tests_hash": "2da0235e3fc8"
+    },
+    {
+      "slug": "type-conversion",
+      "tests_hash": "9e2043028c33"
+    },
+    {
+      "slug": "comparison-and-boolean-logic",
+      "tests_hash": "1cd26182ebfd"
+    },
+    {
+      "slug": "if-elif-else",
+      "tests_hash": "015bec727ba3"
+    },
+    {
+      "slug": "combining-conditions",
+      "tests_hash": "19fb763295b8"
+    },
+    {
+      "slug": "for-loops",
+      "tests_hash": "5d35f2cbe4f2"
+    },
+    {
+      "slug": "while-loops",
+      "tests_hash": "dd33d4a35654"
+    },
+    {
+      "slug": "nested-loops-and-patterns",
+      "tests_hash": "136f96bdb175"
+    },
+    {
+      "slug": "string-operations",
+      "tests_hash": "cba7e44ad38a"
+    },
+    {
+      "slug": "string-methods",
+      "tests_hash": "88c81894e6a1"
+    },
+    {
+      "slug": "string-formatting",
+      "tests_hash": "a2973c4f0f93"
+    }
+  ]
+}
