@@ -1,14 +1,16 @@
-score = int(input())
+year = int(input())
 
-# TODO: work out which band `score` falls in and print its single letter.
-# Print exactly one of: A B C D F
-if score >= 90 and score <= 100:
-    print("A")
-elif score >= 80 and score < 90:
-    print("B")
-elif score >= 70 and score < 80:
-    print("C")
-elif score >= 60 and score < 70:
-    print("D")
+# One boolean expression over `year` goes here. It must be True for exactly
+# the leap years. Replace False; do not change the printing below.
+
+# from website: 
+# The rule: a year is a leap year if it is divisible by 4, 
+# EXCEPT years divisible by 100, which are not,
+# UNLESS they are also divisible by 400, which are.
+
+is_leap = year % 4 == 0 and not year % 100 == 0 or year % 400 == 0
+
+if is_leap:
+    print("leap")
 else:
-    print("F")
+    print("not leap")
